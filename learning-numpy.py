@@ -122,16 +122,5 @@ import numpy as np
 
 # 3d array slice
 
-arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
-print(arr[0, 0, 0])     #gives 1
-print(arr[0, 0, 1])     #gives 2
-print(arr[0, 0, 2])     #gives 3
-print(arr[0, 1, 0])     #gives 4
-print(arr[0, 1, 1])     #gives 5
-print(arr[0, 1, 2])     #gives 6
-print(arr[1, 0, 0])     #gives 7
-print(arr[1, 0, 1])     #gives 8
-print(arr[1, 0, 2])     #gives 9
-print(arr[1, 1, 0])     #gives 10
-print(arr[1, 1, 1])     #gives 11
-print(arr[1, 1, 2])     #gives 12
+arr = np.array([[[1,2,3,4,5,6], [7,8,9,10,11,12]], [[13,14,15,16,17,18], [19,20,21,22,23,24]]])
+print(arr[0,0,0:5])          #gives 1,2,3,4,5
