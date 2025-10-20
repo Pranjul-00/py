@@ -112,9 +112,10 @@ import numpy as np
 
 # 2d array slice
 
-arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
-print(arr[0, 1])     #gives 2
-print(arr[1,2])     #gives 8
-print(arr[1,-3])    #gives 8
+# arr = np.array([[1,2,3,4,5], [6,7,8,9,10]])
+# print(arr[0, 0:4])     #gives 1,2,3,4
+# print(arr[1, 0:4])     #gives 6,7,8,9
+# print(arr[1,-3::-1])    #gives 8,7,6
+# print(arr[1,-3::-2])    #gives 8,6
 
 #--------------------------------------------------------
