@@ -99,3 +99,4 @@ print(arr[-3:-1])       #gives 5,6
 print(arr[0:6:2])       #gives 1,3,5
 print(arr[-1::-2])     #gives 7,5,3,1
 print(arr[-1::-1])     #gives 7,6,5,4,3,2,1
+print(arr[::1])         #gives 1,2,3,4,5,6,7
