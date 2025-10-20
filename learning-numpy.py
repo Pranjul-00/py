@@ -91,3 +91,9 @@ import numpy as np
 
 #--------------------------------------------------------
 
+arr = np.array([1, 2, 3, 4, 5, 6, 7])
+print(arr[1:5])         #gives 2,3,4,5
+print(arr[4:])          #gives 5,6,7
+print(arr[:4])          #gives 1,2,3,4
+print(arr[-3:-1])       #gives 5,6
+print(arr[0:6:2])       #gives 1,3,5
